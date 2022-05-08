@@ -1,0 +1,17 @@
+.mine{
+    margin: 30px 60px;
+}
+.mine::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.mlink{
+    float: left;
+    margin-right: 50px;
+    padding-right: 10px;
+    border-right: 1px navajowhite solid;
+}
+.mlink a{
+    margin: 10px;
+}

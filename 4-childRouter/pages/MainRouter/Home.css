@@ -1,0 +1,21 @@
+.home{
+    margin: 30px 60px;
+}
+.home::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.hlink{
+    float: left;
+    margin-right: 50px;
+    padding-right: 10px;
+    border-right: 1px navajowhite solid;
+}
+.hlink a{
+    margin: 10px;
+}
+.resolve li{
+    float: left;
+    list-style: none;
+}
