@@ -1,0 +1,26 @@
+.adm-grid{
+  margin: 6px;
+  .grid-demo-item-block {
+    background: #fff;
+    text-align: center;
+    color: #999;
+    display: flex;
+    padding: 10px;
+    border-radius: 4px;
+
+    p{
+      margin: 0;
+      font-size: 14px;
+      margin-block-start:0;
+      color: #666;
+    }
+    span{
+      font-size: 12px;
+    }
+
+    img{
+      margin-left: 10px;
+      width: 45px;
+    }
+  }
+}

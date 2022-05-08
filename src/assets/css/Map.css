@@ -1,0 +1,37 @@
+
+.icon{
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  top: 10px;
+  left: 10px;
+  z-index: 999;
+}
+
+.bubble {
+  width: 70px;
+  height: 70px;
+  line-height: 1;
+  display: inline-block;
+  position: absolute;
+  border-radius: 100%;
+  background: rgba(12, 181, 106, 0.9);
+  color: #fff;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  text-align: center;
+  cursor: pointer;
+}
+
+/* 小区的覆盖物样式： */
+
+.rect {
+  height: 20px;
+  line-height: 19px;
+  width: 100px;
+  padding: 0 3px;
+  border-radius: 3px;
+  position: absolute;
+  background: rgba(12, 181, 106, 0.9);
+  cursor: pointer;
+  white-space: nowrap;
+}

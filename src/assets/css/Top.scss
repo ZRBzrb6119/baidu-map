@@ -1,0 +1,32 @@
+.adm-nav-bar {
+  .adm-nav-bar-title {
+    padding: 0;
+  }
+
+  .adm-nav-bar-back {
+    padding: 0px;
+    margin: 0;
+  }
+
+  .leftnav {
+    display: flex;
+    height: 35px;
+    line-height: 35px;
+
+    p {
+      margin: 0;
+      padding: 0 4px;
+      border: 1px solid #999;
+      border-radius: 4px;
+    }
+    .form{
+      border: 1px solid #999;
+      border-radius: 4px;
+      width: 66vw;
+      padding: 0 5px;
+      span{
+        margin-left: 8px;
+      }
+    }
+  }
+}
